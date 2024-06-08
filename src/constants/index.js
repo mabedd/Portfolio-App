@@ -18,10 +18,19 @@ import {
   net,
   tf,
   python,
-  sqlserver,
+  sql,
   perfectionstrength,
   emerald,
   shoppyadmin,
+  aws,
+  azure,
+  devops,
+  gcp,
+  jira,
+  next,
+  strapi,
+  ts,
+  docker,
 } from "../assets";
 
 export const navLinks = [
@@ -64,8 +73,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next",
+    icon: next,
   },
   {
     name: "Tailwind CSS",
@@ -84,20 +93,12 @@ const technologies = [
     icon: net,
   },
   {
-    name: "SQL Server",
-    icon: sqlserver,
+    name: "SQL",
+    icon: sql,
   },
   {
-    name: "TensorFlow",
-    icon: tf,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "TypeScript",
+    icon: ts,
   },
   {
     name: "JavaScript",
@@ -108,8 +109,40 @@ const technologies = [
     icon: python,
   },
   {
+    name: "TensorFlow",
+    icon: tf,
+  },
+  {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Azure DevOps",
+    icon: devops,
+  },
+  {
+    name: "JIRA",
+    icon: jira,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
+    name: "GCP",
+    icon: gcp,
+  },
+  {
+    name: "Strapi",
+    icon: strapi,
+  },
+  {
+    name: "Docker",
+    icon: docker,
   },
 ];
 
@@ -122,6 +155,7 @@ const experiences = [
     date: "August 2021 - Present",
     points: [
       "Designing and developing several Web Applications using React, .NET API, and SQL Server.",
+      "Successfully managed and maintained the integration with NHIC services for more than 500 beneficiaries.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing best practices including ITIL and DevOps to automate and optimize the process.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -150,33 +184,6 @@ const experiences = [
       "Built applications that are friendly Robotics Integration.",
       "Designed and developed a functional Robot Control System.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 

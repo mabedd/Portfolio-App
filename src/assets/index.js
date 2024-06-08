@@ -12,7 +12,7 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
-import sqlserver from "./tech/sqlserver.png";
+import sql from "./tech/sql.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
@@ -20,6 +20,16 @@ import tailwind from "./tech/tailwind.png";
 import net from "./tech/net.png";
 import tf from "./tech/tf.png";
 import python from "./tech/python.png";
+import apigee from "./tech/apigee.png";
+import aws from "./tech/aws.jpg";
+import azure from "./tech/azure.png";
+import devops from "./tech/devops.png";
+import gcp from "./tech/gcp.png";
+import jira from "./tech/jira.png";
+import next from "./tech/next.jpg";
+import strapi from "./tech/strapi.png";
+import ts from "./tech/ts.png";
+import docker from "./tech/docker.png";
 
 import nhic from "./company/nhic.png";
 import smartmethods from "./company/smartmethods.png";
@@ -53,8 +63,18 @@ export {
   net,
   tf,
   python,
-  sqlserver,
+  sql,
   perfectionstrength,
   emerald,
   shoppyadmin,
+  apigee,
+  aws,
+  azure,
+  devops,
+  gcp,
+  jira,
+  next,
+  strapi,
+  ts,
+  docker,
 };
